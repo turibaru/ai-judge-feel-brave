@@ -1,3 +1,6 @@
+// Contract: writes a fixed, deterministic text (no randomness) as UTF-8
+// to entry.txt under MAKEFUN_OUTPUT_DIR (default /output), with no
+// trailing newline.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
